@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class Hello extends React.Component {
-  render() {
-    return(
-      <div>Hello {this.props.name}</div>
-    );
-  }
+function Hello(props) {
+  return(
+    <div>Hello {props.name}</div>
+  );
 }
+
 
 export default Hello;
