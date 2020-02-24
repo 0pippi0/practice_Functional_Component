@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-function Hello(props) {
-  return(
+const Hello = (props) => {
+  return (
     <div>Hello {props.name}</div>
   );
 }
